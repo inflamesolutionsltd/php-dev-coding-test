@@ -18,6 +18,21 @@ Welcome! This test will evaluate your skills in **PHP**, **CodeIgniter 3**, **La
    - Push your branches to your forked repository.
 5. When done, create a **Pull Request (PR)** to the main branch of this repository.
 
+## Local Testing Requirement (Mandatory)
+Before submitting your Pull Request, you MUST:
+
+1. Run the project locally.
+2. Ensure there are no PHP errors or UI issues.
+3. Test the database connection and CRUD operations.
+4. Verify Laravel API endpoints using Postman.
+5. Take a screenshot of the working application (UI or Postman response).
+6. Include this screenshot in a folder named `/test-proof/` in your branch.
+
+Your PR will not be reviewed if:
+- It does not run locally.
+- No screenshot or test-proof is provided.
+
+
 ---
 
 ## 🛠 Requirements
@@ -30,7 +45,7 @@ Welcome! This test will evaluate your skills in **PHP**, **CodeIgniter 3**, **La
 ---
 
 ## ⏱ Time Limit
-2.5 – 3 hours.
+1 – 1.5 hours.
 
 ---
 
