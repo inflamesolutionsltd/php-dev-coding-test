@@ -1,0 +1,45 @@
+﻿Task -1: 
+<?php
+    function returnSeconLargestNumber($numArr) {
+        if (count($numArr) < 2) {
+            return null; 
+        }
+
+
+        $first = $second = PHP_INT_MIN;
+
+
+        foreach ($numArr as $num) {
+            if ($num > $first) {
+                $second = $first;
+                $first = $num;
+            } elseif ($num > $second && $num < $first) {
+                $second = $num;
+            }
+        }
+
+
+        return ($second === PHP_INT_MIN) ? null : $second; 
+    }
+?>
+
+
+
+
+Task - 2:
+Debug result after run the program.
+1. On line number 2 Post method defined but  if not present then guest value set on $name variable.
+2. On line number 5 if condition not work because not post value assign thats why else block work.
+
+
+
+
+Task - 3:
+Include vs Require difference
+1. Give warning if file missing for include use time.
+2. Give fatal error if file missing for require use time.
+
+
+isset() vs empty() difference
+1. isset() functionreturn true if variable value set.
+2. empty() function check return true if variable empty.
