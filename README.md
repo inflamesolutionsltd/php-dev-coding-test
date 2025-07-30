@@ -34,15 +34,6 @@ Welcome! This test will evaluate your skills in **PHP**, **CodeIgniter 3**, **La
 
 ---
 
-## 🎯 Evaluation Criteria
-- PHP Logic & Syntax (20%)
-- CodeIgniter MVC (25%)
-- Laravel API Development (25%)
-- Database Knowledge (15%)
-- Git Usage & GitHub Workflow (15%)
-
----
-
 ## 🚀 Bonus Points
 - Use `.env` files for configuration.
 - Write clear commit messages.
