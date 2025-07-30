@@ -9,7 +9,7 @@ Welcome! This test will evaluate your skills in **PHP**, **CodeIgniter 3**, **La
 2. **Clone** the forked repository to your local machine.
 3. Complete the tasks described in the `requirements/` folder:
    - Part 1: PHP Basics
-   - Part 2: CodeIgniter CRUD
+   - Part 2: CodeIgniter/Laravel CRUD
    - Part 3: Laravel API
    - Bonus Task: Debug & Optimize
 4. Use **Git** properly:
