@@ -1,0 +1,10 @@
+$products = Product::with('category')->get();
+
+$products->each(function($product) {
+    $product->category_name = $product->category->name ?? null;
+});
+
+return $products;
+
+
+//use eager loading for optimize query that solved n+1 query problem
